@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // random numbers btn 1 and 25
 function runGame (gameType){
+
     let num1 = Math.floor(Math.random() * 25) + 1;
     let num2 = Math.floor(Math.random() * 25) + 1;
 
